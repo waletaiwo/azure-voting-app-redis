@@ -15,7 +15,7 @@ pipeline {
                docker images -a
                docker build -t jenkins-pipeline .
                cd ..
-               ''' 
+                ''' 
             }
         }  
     }
